@@ -3,7 +3,8 @@ from ultralytics import YOLO
 from dotenv import load_dotenv
 import os
 from fire_alert import fire_alert
-from camera import build_rtsp_url
+from cam_extraction.src.connect_camera import build_rtsp_url
+
 #Lấy biến môi trường
 
 load_dotenv(dotenv_path=os.path.join(os.path.dirname(os.path.dirname(__file__)), ".env"))
