@@ -90,10 +90,10 @@ Chỉ đổi phần IP nếu laptop bạn đổi IP.
 
 ## ⚙️ 5. Chạy server FastAPI
 
-Trên laptop, chạy lệnh:
+Trên laptop, chạy env sau đó lệnh:
 
 ```
-uvicorn main:app --host 0.0.0.0 --port 8000
+py .\SeverAI\src\main.py
 ```
 
 API cần có:
